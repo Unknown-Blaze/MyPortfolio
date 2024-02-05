@@ -1,0 +1,54 @@
+body {
+    line-height: 26px;
+    margin: 0;
+  }
+  
+  .App {
+    height: 75vh;
+    margin-top: 15vh;
+  }
+
+  #contact-form{
+    margin-top: -2rem;
+  }
+
+  
+  .formRow {
+    margin: 15px 0 0 -20px;
+  }
+  
+  .formInput {
+    padding: 15px 10px;
+    border: 1px solid grey;
+  }
+  
+  .errorMessage {
+    color: #f45532;
+    font-size: 14px;
+    margin: 3px;
+    padding: 3px;
+  }
+  
+  .submit-btn {
+    padding: 15px 50px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background-color: #ffa500;
+  }
+  
+  h1, .title {
+    margin: 0 0 0 10px;
+    color: #273b24;
+  }
+  .title{
+    font-size: x-large;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 768px) {
+  
+    .submit-message {
+      width: 125px;
+      margin-left: 200px; /* Adjust the margin-left for the submit-message on smaller screens */
+    }
+  }
