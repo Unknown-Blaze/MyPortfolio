@@ -1,12 +1,18 @@
 import React from 'react';
 import './InitiativeCards.css';
-import image1 from './assets/chefs-mario-and-adrian_a.jpg'
-import image2 from './assets/chefs-mario-and-adrian_b.jpg'
+import chess from './assets/chess.jpg';
+import ichess from './assets/ichess.jpg';
+import mathemagics from './assets/mathemagics.png';
+import cardmagic from './assets/cardmagic.webp';
+import piano from './assets/piano.png';
+import rubiks from './assets/rubikscube.png';
+import sports from './assets/sports.jpg';
+import tt from './assets/tabletennis.webp';
 
 const imageParagraphData = [
   {
     title: "Piano",
-    image: image1,
+    image: piano,
     text: `Highly skilled and accomplished professional pianist with a passion for musical expression and an exceptional 
     record of performance excellence. Completed the prestigious Grade 8 ABRSM examination with distinction, demonstrating 
     outstanding technical proficiency, expressive musicality, and a deep understanding of a wide repertoire. I have also
@@ -15,7 +21,7 @@ const imageParagraphData = [
   },
   {
     title: "I.Chess Club NTU",
-    image: image2,
+    image: ichess,
     text: `As the Varsity Chess Captain of NTU, I have honed an exceptional blend of strategic thinking, leadership, 
     and interpersonal skills, leading my team with distinction in various competitive arenas. Renowned for my innovative 
     approach to game strategy and team management, I have successfully fostered a culture of respect, excellence, and 
@@ -23,7 +29,7 @@ const imageParagraphData = [
   },
   {
     title: "Chess",
-    image: image2,
+    image: chess,
     text: `Before NTU, I've played in competitions and have led the school teams to many wins. The team not only comes to me
     for tactical support but also for emotional support. I might not be the strongest player in the team, but me being the 
     most experienced places me as a very well rounded captain. I have drawn and beat much stronger players with me thanks
@@ -31,14 +37,14 @@ const imageParagraphData = [
   },
   {
     title: <a href="https://www.youtube.com/watch?v=145lcIPwNe4"><u>Human Calculator</u></a>,
-    image: image2,
+    image: mathemagics,
     text: `Since young I have enjoyed this concept, especially fueled by the TedTalk by Arthur Benjamin. Since then,
     I've learned to square 2, 3, 4 and 5 digit numbers mentally, find the day of any given date, and perform other 
     cool tricks and calculations. I have also performed this on several stages`,
   },
   {
     title: "Rubik's cube",
-    image: image2,
+    image: rubiks,
     text: `National and International Recognition: Secured a top 15 ranking in Malaysia and top 100 in India for Pyraminx, 
     showcasing superior skill and strategic mastery in one of the most challenging puzzle categories. Finalist in National 
     Cube Open: Achieved finalist status in a highly competitive national event, underlining competitive excellence and 
@@ -46,7 +52,7 @@ const imageParagraphData = [
   },
   {
     title: "Table tennis",
-    image: image2,
+    image: tt,
     text: `A highly skilled table tennis player with extensive experience competing at the district level in Malaysia. 
     Demonstrates exceptional hand-eye coordination, agility, and strategic gameplay, coupled with a strong dedication to 
     personal and athletic development. Recognized for outstanding sportsmanship, competitive spirit, and the ability to 
@@ -54,7 +60,7 @@ const imageParagraphData = [
   },
   {
     title: "Badminton and others",
-    image: image2,
+    image: sports,
     text: `A highly skilled and versatile athlete with a passion for competitive sports, including badminton, 
     basketball, and handball. Known for exceptional agility, coordination, and strategic thinking, I excel in fast-paced 
     and dynamic sporting environments. My dedication to athletics is matched by a strong commitment to teamwork, 
@@ -62,7 +68,7 @@ const imageParagraphData = [
   },
   {
     title: "Card Magic",
-    image: image2,
+    image: cardmagic,
     text: `Adept at card and coin sleight of hand, having cultivated this unique skill set during the lockdown period 
     as a self-driven initiative to master the art of magic. Recognized for exceptional dexterity, precision, and creativity, 
     with a proven ability to captivate and engage audiences through sophisticated performances. Utilizes this talent as an 
