@@ -15,32 +15,35 @@ const customers = [[
   {
     fullName: 'SC2002 CAMs Project',
     image: java_uml,
-    says: `Explain some stuff about the technologies used in the project like Java / UML`,
+    says: `Used Java OOP concepts to create a Command Line Interface Application to ease the registrations of
+    model 'camps' in NTU`,
     href: "https://github.com/Unknown-Blaze/SC2002-Assignment-CAMS",
   },
   {
     fullName: 'DSA in C / C++',
     image: dsa,
-    says: `Create a readme, also explain stuff about DSA mod, and my leetcode journey atm`,
+    says: `I have done quite a bit of Data structures and Algorithms through the modules in NTU and Leetcode.`,
     href: "https://github.com/Unknown-Blaze/DSA-in-C",
   },
   {
     fullName: 'Microprocessor design',
     image: msp432,
-    says: `I explain about lab 5, the combination of IR, reflecctance, tacho, bumper, interrupts, polling and whatever`,
+    says: `Coding a TI MSP432 robot using interrupts, polling, infrared sensors, Reflectance sensors, Bumper 
+    sensors, Tachometer, etc. Combined this to produce "follow the line", "Avoid objects", "Calculate RPM based 
+    on a PWM signal passed on both wheels", etc.`,
     href: "https://github.com/Unknown-Blaze/Microprocessor-System-Design",
   },
   {
     fullName: 'Data Analysis in R',
     image: pastalah,
-    says: `I enjoy portraying through acting, joke about me falling (if there is space), I coded everything and created the 
-    scripts that explain all the code`,
+    says: `Had fun making a project where we analyzed the waiting times of people in a pasta restaurant. All the code and
+    scripts (explaining the code) were made by me consisting of simulations and regression analysis`,
     href: "https://www.youtube.com/watch?v=JNMVZW49hws",
   },
   {
     fullName: 'Javascript journey',
     image: jsjourney,
-    says: `Learned from YouTube and the Meta Front-end Dev course. Created JavaScript projects (e.g., tic-tac-toe, cards) 
+    says: `Learned from YouTube and then the Meta Front-end Dev course. Created JavaScript projects (e.g., tic-tac-toe, cards) 
     and explored React features while working on portfolio projects during the course.`,
     href: "https://github.com/Unknown-Blaze/Learning-js",
   },],
@@ -48,32 +51,35 @@ const customers = [[
     {
       fullName: 'Full Stack AI app',
       image: fullstack,
-      says: `My current 2006 project`,
+      says: `My current software engineering project. Depending on when you are seeing this, I will be closer to completion!`,
       href: "https://github.com/Unknown-Blaze/PineappleStudios",
     },
     {
       fullName: 'Python Discord Bot',
       image: discordbot,
-      says: `I'll just explain about the economy bot`,
+      says: `Coded an economy bot using the discord.py module. Learned the concepts of OOP, cogs and async functions in Python`,
       href: "",
     },
     {
       fullName: 'MACD predictor',
       image: macd,
-      says: `Project for one of my modules to predict stock market data using certain trend based algorithms and compared them`,
+      says: `Project for one of my modules to predict stock market data using certain trend based algorithms and compared them
+      to a simple buy-hold-sell strategy to determine the best course of action`,
       href: "https://github.com/Unknown-Blaze/MACD-Project-Python--SC1003-",
       },
     {
       fullName: '2D Game Dev',
       image: phaser,
-      says: `Used Phaser.js to code a little game. Learned about 2D game physics`,
+      says: `Used Phaser.js to code a few games. Learned about 2D game physics which paved the way for me to understand 
+      3D game development`,
       href: "https://github.com/Unknown-Blaze/SC2002-Assignment-CAMS",
     },
     {
       fullName: 'UE5 Game Dev',
       image: ue5,
-      says: `Explain that I learned from Youtube videos and was very interested, but not enough resources to become 
-      better (at least I can't find)`,
+      says: `Game development has always seemed interesting, and I gave a shot and even coded a few mini games on unreal engine
+      by following youtube tutorials. However, I was unfortunate to not find solutions for the problems I had, so I look forward 
+      to getting back soon!`,
       href: "",
     },]
 ];
