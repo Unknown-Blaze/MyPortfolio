@@ -72,7 +72,7 @@ const customers = [[
       image: phaser,
       says: `Used Phaser.js to code a few games. Learned about 2D game physics which paved the way for me to understand 
       3D game development`,
-      href: "https://github.com/Unknown-Blaze/SC2002-Assignment-CAMS",
+      href: "https://github.com/Unknown-Blaze/Starcollector",
     },
     {
       fullName: 'UE5 Game Dev',

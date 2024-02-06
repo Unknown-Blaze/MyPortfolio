@@ -36,7 +36,7 @@ const imageParagraphData = [
     to the knowledge and experience I've gained throughout`,
   },
   {
-    title: <a href="https://www.youtube.com/watch?v=145lcIPwNe4"><u>Human Calculator</u></a>,
+    title: <a href="https://www.youtube.com/watch?v=145lcIPwNe4" target="_blank"><u>Human Calculator</u></a>,
     image: mathemagics,
     text: `Since young I have enjoyed this concept, especially fueled by the TedTalk by Arthur Benjamin. Since then,
     I've learned to square 2, 3, 4 and 5 digit numbers mentally, find the day of any given date, and perform other 
