@@ -1,6 +1,6 @@
 import lecturehall from './assets/lecturehall.jpg'
 import './Hero.css';
-import resume from "./assets/Ganesh Rudra Prasadh Resume - Jan 2024.pdf"
+import resume from "./assets/Ganesh Rudra Prasadh Resume - Feb 2024.pdf"
 
 const Hero = () => {
   const scrollToBottom = () => {
