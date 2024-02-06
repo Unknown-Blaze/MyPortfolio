@@ -32,7 +32,7 @@ const App = () => {
           />
           <Route path={pages.get('contactme').path} element={<ContactForm />} />
 
-          <Route path="*" element={<NotFound />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </Layout>
     </>
