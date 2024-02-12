@@ -1,5 +1,6 @@
 import lecturehall from './assets/lecturehall.jpg'
 import './Hero.css';
+import ReactGA from "react-ga";
 
 const Hero = () => {
   const scrollToBottom = () => {
