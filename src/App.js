@@ -10,7 +10,12 @@ import Projects from './components/pages/Projects';
 import Initiatives from './components/pages/Initiatives';
 import Mentoring from './components/pages/Mentoring';
 import ContactForm from './components/pages/ContactMe';
-import UnderConstruction from './components/pages/UnderConstruction'
+import UnderConstruction from './components/pages/UnderConstruction';
+import ReactGA from "react-ga";
+
+const id = "G-HSSBJKWVZW";
+ReactGA.initialize(id);
+ReactGA.pageview(document.location.pathname);
 
 const App = () => {
   return (

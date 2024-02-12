@@ -7,11 +7,8 @@ const imageParagraphData = [
   {
     title: "Peer Coach",
     image: image1,
-    text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+    text: `Chosen as one of four coaches in the School of Computer Science and Engineering.
+    Aiding a student from bringing him out of academic warning stage. `,
   },
   {
     title: "Chess Coach at OWIS",
@@ -88,6 +85,7 @@ const MentorCards = () => {
             )}
           </div>
         ))}
+        <br/>
       </section>
     </div>
     

@@ -32,7 +32,7 @@ const Hero = () => {
           <button className="button-primary first" onClick={scrollToBottom}>
             Contact Me
           </button>
-          <a href={resume} target="_blank">
+          <a href="https://drive.google.com/file/d/1nSYaM9-oQSFznPccAfjvEtelVxLoXDBA/view?usp=drive_link" target="_blank">
           <button className="button-primary second">
             My Resume
           </button>
