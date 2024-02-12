@@ -4,11 +4,7 @@ import ReactGA from "react-ga";
 
 const Hero = () => {
   const scrollToBottom = () => {
-      ReactGA.event({
-        category: 'Button',
-        action: 'Click',
-        label: 'My Button',
-    });
+      
     // Get the height of the entire page
     const pageHeight = document.documentElement.scrollHeight;
 
@@ -17,6 +13,13 @@ const Hero = () => {
       top: pageHeight, 
       left: 0, 
       behavior: 'smooth', 
+    });
+  };
+  const trackResumeDownload = () => {
+    ReactGA.event({
+      category: 'Button',
+      action: 'Click',
+      label: 'My Resume Button',
     });
   };
 
@@ -38,7 +41,7 @@ const Hero = () => {
             Contact Me
           </button>
           <a href="https://drive.google.com/file/d/1nSYaM9-oQSFznPccAfjvEtelVxLoXDBA/view?usp=drive_link" target="_blank">
-          <button className="button-primary second">
+          <button className="button-primary second" onClick={trackResumeDownload}>
             My Resume
           </button>
           </a>
