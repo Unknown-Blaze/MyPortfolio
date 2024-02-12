@@ -1,9 +1,13 @@
 import lecturehall from './assets/lecturehall.jpg'
 import './Hero.css';
-import resume from "./assets/Ganesh Rudra Prasadh Resume - Feb 2024.pdf"
 
 const Hero = () => {
   const scrollToBottom = () => {
+      ReactGA.event({
+        category: 'Button',
+        action: 'Click',
+        label: 'My Button',
+    });
     // Get the height of the entire page
     const pageHeight = document.documentElement.scrollHeight;
 
