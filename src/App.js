@@ -1,6 +1,7 @@
 import {
   Route, 
-  Routes
+  Routes,
+  useLocation
 } from 'react-router-dom';
 import pages from './utils/pages';
 import Layout from './components/layout/Layout';
@@ -15,9 +16,12 @@ import ReactGA from "react-ga";
 
 const id = "G-HSSBJKWVZW";
 ReactGA.initialize(id);
-ReactGA.pageview(document.location.pathname);
 
 const App = () => {
+  const location = useLocation();
+  useEffect(() => {
+    ReactGA.pageview(location.pathname + location.search);
+  }, [location]);
   return (
     <>
       <Layout>

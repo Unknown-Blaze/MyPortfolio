@@ -6,7 +6,10 @@ import './index.css';
 import App from './App';
 import ScrollToTop from './components/layout/ScrollToTop';
 import reportWebVitals from './reportWebVitals';
+import ReactGA from 'react-ga';
 
+
+ReactGA.initialize(id);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
