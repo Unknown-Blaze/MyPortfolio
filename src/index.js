@@ -8,7 +8,7 @@ import ScrollToTop from './components/layout/ScrollToTop';
 import reportWebVitals from './reportWebVitals';
 import ReactGA from 'react-ga';
 
-
+const id = "G-HSSBJKWVZW";
 ReactGA.initialize(id);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
