@@ -18,7 +18,6 @@ import pages from '../../utils/pages';
 const contacts = [
   { icon: faPhone, info: '+65 8178 0206', },
   { icon: faEnvelope, info: 'rudrapra001@e.ntu.edu.sg', },
-  { icon: faLocationDot, info: "Hall 12, 30 Nanyang Crescent, 637659, Singapore", },
 ];
 
 const socials = [
