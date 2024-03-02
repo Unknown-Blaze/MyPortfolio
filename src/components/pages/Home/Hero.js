@@ -23,9 +23,6 @@ const Hero = () => {
     });
   };
 
-  // const download = () => {
-  //   window.open(resume, '_blank');
-  // }
   return (
     <section className="hero">
       <div className="container grid">

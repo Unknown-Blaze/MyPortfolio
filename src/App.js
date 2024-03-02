@@ -6,12 +6,10 @@ import {
 import pages from './utils/pages';
 import Layout from './components/layout/Layout';
 import Home from './components/pages/Home';
-import NotFound from './components/pages/NotFound';
 import Projects from './components/pages/Projects';
 import Initiatives from './components/pages/Initiatives';
 import Mentoring from './components/pages/Mentoring';
 import ContactForm from './components/pages/ContactMe';
-import UnderConstruction from './components/pages/UnderConstruction';
 import ReactGA from "react-ga";
 import { useEffect } from 'react';
 

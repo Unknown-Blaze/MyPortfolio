@@ -45,10 +45,10 @@ const ContactForm = () => {
       
       // Use emailjs to email contact form data
       await emailjs.send(
-        'service_sj2o44c',    // Replace with your actual service ID
-        'template_90klsll',   // Replace with your actual template ID
+        'service_sj2o44c',  
+        'template_90klsll', 
         templateParams,
-        'Kv9c0RIdq-RVTouCo'   // Replace with your actual public key
+        'Kv9c0RIdq-RVTouCo' 
       );
       
 
