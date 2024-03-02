@@ -1,64 +1,79 @@
 import React from 'react';
 import './MentorCards.css';
-import image1 from './assets/chefs-mario-and-adrian_a.jpg'
-import image2 from './assets/chefs-mario-and-adrian_b.jpg'
+import stg from './assets/stg.jpg'
+import sb from './assets/scholarsbeacon.png'
+import rubiks from './assets/rubiks.jpg' 
+import bigbrain from './assets/bigbrain.webp'
+import ntupe from './assets/ntupe.png'
+import owis from './assets/owis.jpg'
+import tt from './assets/tt.jpg'
+import spm from './assets/spm.png'
 
 const imageParagraphData = [
   {
     title: "Peer Coach",
-    image: image1,
-    text: `Chosen as one of four coaches in the School of Computer Science and Engineering.
-    Aiding a student from bringing him out of academic warning stage. `,
+    image: stg,
+    text: `Selected as one of only four peer coaches from a competitive pool, recognized for exceptional mentoring 
+    abilities and academic excellence. Demonstrated a profound impact on student success, notably in guiding a peer from 
+    academic warning to good standing, underscoring a commitment to fostering academic achievement and personal growth. 
+    Exemplified leadership and empathy in coaching, establishing trust and encouraging a culture of academic excellence 
+    and resilience.`,
   },
   {
     title: "Chess Coach at OWIS",
-    image: image2,
-    text: "Applied for MOE approved coach, teach kids",
+    image: owis,
+    text: `Achieved recognition as an MOE-approved Chess Coach, underscoring a commitment to educational excellence and 
+    expertise in chess instruction. At OWIS, I lead a dynamic chess program, teaching children the strategic depths of 
+    chess, fostering critical thinking, and enhancing problem-solving skills. My role reflects a blend of instructional 
+    prowess, passion for chess, and a dedication to nurturing young minds.`,
   },
   {
     title: "Piano Music Director",
-    image: image2,
-    text: "Although not exactly decipherable from the name, I taught beginners to play the piano",
+    image: ntupe,
+    text: `In my role as Piano Music Director, I specialized in introducing the fundamentals of piano playing to 
+    beginners, employing a comprehensive and empathetic teaching approach that facilitated rapid learning and a deep 
+    appreciation for music. This position, while centered around musical instruction, encompassed curriculum development, 
+    student performance oversight, and fostering an environment conducive to musical exploration and growth.`,
   },
   {
     title: "Teaching coding to friends",
-    image: image2,
-    text: "Sem 1, this was one of the important factors that let me switch to CE",
+    image: bigbrain,
+    text: `In the first semester, I undertook the initiative to teach coding to my peers, a pivotal experience that not 
+    only honed my technical and instructional skills but also clarified my passion for Computer Engineering. This 
+    informal yet impactful role demonstrated my ability to simplify complex concepts, mentor effectively, and lead by 
+    example in the pursuit of technological education.`,
   },
   {
     title: "Preparing students for SPM",
-    image: image2,
-    text: "PCM + Addmath, ended up teaching chess to some of the students too!",
+    image: spm,
+    text: `Leveraged my expertise in Physics, Chemistry, and Mathematics to prepare students for the SPM examinations, 
+    achieving notable success in elevating their understanding and performance in these subjects. Additionally, I 
+    enriched the learning environment by introducing chess as a complementary skill set, fostering strategic thinking 
+    and problem-solving abilities among students. This multifaceted role underscored my versatility as an educator and 
+    mentor.`,
   },
   {
-    title: "Teaching IB Math",
-    image: image2,
-    text: `Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-  },
-  {
-    title: "Scholar's Beacon",
-    image: image2,
-    text: `Teaching CBSE/IGCSE/IB to Students from Singapore and Malaysia. I started this initiative, however most of us 
-    ended up not having enough time to commit and stopped it.`,
-  },
-  {
-    title: "Teaching primary students Math and Chess",
-    image: image2,
-    text: `Seems to be a common theme, but since year 8 I have been intent on teaching Math and chess to all ages, starting
-    with friends and mutuals who are between year 3 and year 7.`,
+    title: "Founder & Tutor, Scholar's Beacon",
+    image: sb,
+    text: `Initiated "Scholar's Beacon," an educational venture, aimed at tutoring students in CBSE/IGCSE/IB curricula 
+    across Singapore and Malaysia. This endeavor showcased our entrepreneurial spirit, commitment to education, and 
+    ability to mobilize and lead a team towards a common goal of academic support and excellence.`,
   },
   {
     title: "Teaching table tennis",
-    image: image2,
-    text: `One of the first things I taught (other than Math and Chess) was Table tennis, and it was a very casual beginning for
-    my teaching journey.`,
+    image: tt,
+    text: `My teaching journey commenced with instructing table tennis, marking the beginning of a passionate commitment to 
+    coaching and skill development. This initial foray into teaching, beyond academic subjects like Math and Chess, 
+    showcased my versatility and innate ability to engage and inspire learners in physical sports.`,
   },
   {
     title: <a href="https://www.youtube.com/channel/UCGeCublTDNAkfnUDjNbOpyA" target="_blank"><u>Rubik's Cube (On Youtube)</u></a>,
-    image: image2,
-    text: `During lockdown, created a youtube channel and taught several things on the rubik's cube. Click on the title to see more!`,
+    image: rubiks,
+    text: `In response to the global lockdown, I launched a YouTube channel focused on Rubik's Cube tutorials, leveraging my 
+    expertise in cube solving to educate and engage a global audience. Through this platform, I delivered comprehensive 
+    guidance on solving techniques, strategies, and the mathematical concepts behind the Rubik's Cube, showcasing my 
+    ability to simplify complex problems and connect with viewers of all skill levels.`,
   },
-  // Add more objects as needed
 ];
 
 const MentorCards = () => {
@@ -66,9 +81,8 @@ const MentorCards = () => {
     
     <div className='container'>
       <br/>
-      <h1>All teaching related </h1>
-      <h3 className='title'>I have always loved learning and teaching everything I know to those around me. 
-       This deserves a separate page where I highlight my teaching journey</h3>
+      <h1>Teaching Journey</h1>
+      <h3 className='title'>Welcome to my teaching journey, where I ignite minds and foster a passion for learning</h3>
       <section className="grid our-story">
         {imageParagraphData.map((data, index) => (
           <div key={index} className={`our-story-item ${index % 2 === 1 ? 'swap' : ''}`}>

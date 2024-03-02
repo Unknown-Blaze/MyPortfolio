@@ -35,11 +35,6 @@ const Footer = () => {
   return (
     <footer className="site-footer">
       <div className="container grid">
-        {/* <img 
-          className="site-footer-logo" 
-          src={logoWhiteImage} 
-          alt="Little Lemon" 
-        /> */}
         <div className="site-footer-contact">
           <h4>Get in Touch</h4>
           <address>

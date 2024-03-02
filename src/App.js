@@ -2,7 +2,6 @@ import {
   Route, 
   Routes,
   useLocation,
-  useEffect
 } from 'react-router-dom';
 import pages from './utils/pages';
 import Layout from './components/layout/Layout';
@@ -14,6 +13,7 @@ import Mentoring from './components/pages/Mentoring';
 import ContactForm from './components/pages/ContactMe';
 import UnderConstruction from './components/pages/UnderConstruction';
 import ReactGA from "react-ga";
+import { useEffect } from 'react';
 
 const id = "G-HSSBJKWVZW";
 ReactGA.initialize(id);
@@ -38,7 +38,7 @@ const App = () => {
           />
           <Route 
             path={pages.get('mentoring').path} 
-            element={<UnderConstruction />} 
+            element={<Mentoring />} 
           />
           <Route path={pages.get('contactme').path} element={<ContactForm />} />
 
