@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.11196f1e.css",
-    "main.js": "/MyPortfolio/static/js/main.4a63ea4e.js",
+    "main.css": "/MyPortfolio/static/css/main.dcfd9b3e.css",
+    "main.js": "/MyPortfolio/static/js/main.ca1b9594.js",
     "static/js/787.b7de270b.chunk.js": "/MyPortfolio/static/js/787.b7de270b.chunk.js",
     "static/media/scholarsbeacon.png": "/MyPortfolio/static/media/scholarsbeacon.ae0792af5f9440acf42d.png",
     "static/media/mathemagics.png": "/MyPortfolio/static/media/mathemagics.07950841921573f50fc6.png",
@@ -11,17 +11,17 @@
     "static/media/spm.png": "/MyPortfolio/static/media/spm.ae08e49d81b6f54ee169.png",
     "static/media/jsjourney.jpg": "/MyPortfolio/static/media/jsjourney.f39a82f2847b10a9d824.jpg",
     "static/media/java_uml.jpg": "/MyPortfolio/static/media/java_uml.9de3e9f1f8dc9992bba6.jpg",
-    "static/media/ichess.jpg": "/MyPortfolio/static/media/ichess.9e638354f7aec05ea793.jpg",
+    "static/media/ichess.jpg": "/MyPortfolio/static/media/ichess.42597d57342f1828996c.jpg",
     "static/media/tabletennis.webp": "/MyPortfolio/static/media/tabletennis.2eb0ae9f63c44170f035.webp",
     "static/media/lecturehall.jpg": "/MyPortfolio/static/media/lecturehall.f1802901bad1b9dc0e25.jpg",
     "static/media/cardmagic.webp": "/MyPortfolio/static/media/cardmagic.1a85a225e0bd6a70da26.webp",
     "static/media/owis.jpg": "/MyPortfolio/static/media/owis.971697277cb967f2627d.jpg",
     "static/media/macd.jpg": "/MyPortfolio/static/media/macd.f91e23a0a068a129deff.jpg",
     "static/media/phaser.jpg": "/MyPortfolio/static/media/phaser.34794d4da754029e1ad4.jpg",
+    "static/media/chess.jpg": "/MyPortfolio/static/media/chess.ed7674f9dbf98b55d764.jpg",
     "static/media/pastalah.jpg": "/MyPortfolio/static/media/pastalah.aecf1eb9068f856b382b.jpg",
     "static/media/dsa.jpg": "/MyPortfolio/static/media/dsa.d3e76740828b72010138.jpg",
     "static/media/discordbot.jpg": "/MyPortfolio/static/media/discordbot.feef42496d68073f2001.jpg",
-    "static/media/chess.jpg": "/MyPortfolio/static/media/chess.0451d067f6e6aab80237.jpg",
     "static/media/ue5.jpg": "/MyPortfolio/static/media/ue5.95d6abc467c26e07f75e.jpg",
     "static/media/fullstack.jpg": "/MyPortfolio/static/media/fullstack.761d5d880de017885213.jpg",
     "static/media/stg.jpg": "/MyPortfolio/static/media/stg.aab6969a48656a3f9e9c.jpg",
@@ -33,12 +33,12 @@
     "static/media/tt.jpg": "/MyPortfolio/static/media/tt.3e1e8f5d702db3d5e15a.jpg",
     "static/media/bigbrain.webp": "/MyPortfolio/static/media/bigbrain.6eb741087c459d271cee.webp",
     "index.html": "/MyPortfolio/index.html",
-    "main.11196f1e.css.map": "/MyPortfolio/static/css/main.11196f1e.css.map",
-    "main.4a63ea4e.js.map": "/MyPortfolio/static/js/main.4a63ea4e.js.map",
+    "main.dcfd9b3e.css.map": "/MyPortfolio/static/css/main.dcfd9b3e.css.map",
+    "main.ca1b9594.js.map": "/MyPortfolio/static/js/main.ca1b9594.js.map",
     "787.b7de270b.chunk.js.map": "/MyPortfolio/static/js/787.b7de270b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11196f1e.css",
-    "static/js/main.4a63ea4e.js"
+    "static/css/main.dcfd9b3e.css",
+    "static/js/main.ca1b9594.js"
   ]
 }
