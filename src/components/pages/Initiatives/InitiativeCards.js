@@ -9,7 +9,7 @@ import rubiks from './assets/rubikscube.png';
 import sports from './assets/sports.jpg';
 import tt from './assets/tabletennis.webp';
 
-const imageParagraphData = [
+const initiativecards = [
   {
     title: "Piano",
     image: piano,
@@ -81,10 +81,10 @@ const OurStory = () => {
     <div className='container'>
       <br/>
       <h1>All Initiatives taken throughout the last decade </h1><br/>
-    <section className="grid our-story">
+    <section className="grid initiative">
       
-      {imageParagraphData.map((data, index) => (
-        <div key={index} className={`our-story-item ${index % 2 === 1 ? 'swap' : ''}`}>
+      {initiativecards.map((data, index) => (
+        <div key={index} className={`initiative-item ${index % 2 === 1 ? 'swap' : ''}`}>
           {index % 2 === 1 ? (
             <>
               <p><span className='big'>{data.title} </span><br/>{data.text}</p>

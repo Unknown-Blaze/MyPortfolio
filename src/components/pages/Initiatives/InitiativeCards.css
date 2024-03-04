@@ -1,17 +1,17 @@
-.our-story {
+.initiative {
   display: flex;
   flex-direction: column;
   gap: 3.5rem;
 }
 
-.our-story-item {
+.initiative-item {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1rem;
 }
 
-.our-story-item img {
+.initiative-item img {
   width: 45%;
   border-radius: 1rem;
 }
@@ -27,5 +27,3 @@ h1, .title {
 .big{
   font-size: xx-large;
 }
-
-/* Add styling for paragraphs as needed */

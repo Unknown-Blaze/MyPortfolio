@@ -22,9 +22,6 @@ const awards = [
     description: `Achieved a cumulative GPA of 4.73 out of 5.0 in my first year, placing in the top 5% of the course, 
     underscoring rigorous academic discipline and mastery in a challenging curriculum. After scoring 4.92 in year 2 semester 1,
     I'm expecting it for my second year as well.
-    
-    
-    
     `,
     href: "https://www.ntu.edu.sg/engineering/admissions/ug/acad/deans-list",
   },
@@ -41,8 +38,8 @@ const awards = [
 
 const AwardSpecials = () => {
   return (
-    <section className="container grid week-specials">
-      <div className="week-specials-header">
+    <section className="container grid achievments">
+      <div className="achievments-header">
         <h2>My Achievments</h2>
       </div>
       {awards.map((a, index) => 

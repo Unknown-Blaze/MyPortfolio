@@ -1,17 +1,17 @@
-.our-story {
+.teaching-journey {
   display: flex;
   flex-direction: column;
   gap: 3.5rem;
 }
 
-.our-story-item {
+.teaching-journey-item {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 1rem;
 }
 
-.our-story-item img {
+.teaching-journey-item img {
   width: 40%;
   border-radius: 1rem;
 }
@@ -27,5 +27,3 @@ h1, .title {
 .big{
   font-size: xx-large;
 }
-
-/* Add styling for paragraphs as needed */

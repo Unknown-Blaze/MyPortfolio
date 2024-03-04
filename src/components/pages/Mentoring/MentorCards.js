@@ -9,7 +9,7 @@ import owis from './assets/owis.jpg'
 import tt from './assets/tt.jpg'
 import spm from './assets/spm.png'
 
-const imageParagraphData = [
+const mentoringcards = [
   {
     title: "Peer Coach",
     image: stg,
@@ -83,9 +83,9 @@ const MentorCards = () => {
       <br/>
       <h1>Teaching Journey</h1>
       <h3 className='title'>Welcome to my teaching journey, where I ignite minds and foster a passion for learning</h3>
-      <section className="grid our-story">
-        {imageParagraphData.map((data, index) => (
-          <div key={index} className={`our-story-item ${index % 2 === 1 ? 'swap' : ''}`}>
+      <section className="grid teaching-journey">
+        {mentoringcards.map((data, index) => (
+          <div key={index} className={`teaching-journey-item ${index % 2 === 1 ? 'swap' : ''}`}>
             {index % 2 === 1 ? (
               <>
                 <img src={data.image} alt={`Image ${index + 1}`} />

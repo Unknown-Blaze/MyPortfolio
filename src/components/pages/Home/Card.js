@@ -2,15 +2,15 @@ import './Card.css';
 
 const Card = ({award}) => {
   const c = (
-    <article className="meal-card">
-      <div className="meal-card-image">
+    <article className="award-card">
+      <div className="award-card-image">
         <img src={award.image} alt={award.name} />
       </div>
-      <div className="meal-card-header">
+      <div className="award-card-header">
         <h3>{award.name}</h3>
         <span>{award.time}</span>
       </div>
-      <div className="meal-card-body-footer">
+      <div className="award-card-body-footer">
         <p>{award.description}</p>
       </div>
     </article>

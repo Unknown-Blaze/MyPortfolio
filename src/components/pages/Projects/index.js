@@ -1,8 +1,8 @@
-import Testimonials from './Testimonials';
+import Project from './Projects';
 
 const Projects = () => {
   return (
-    <Testimonials/>
+    <Project/>
   );
 };
 

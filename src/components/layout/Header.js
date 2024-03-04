@@ -16,7 +16,7 @@ const Header = () => {
       <nav className="container grid nav-bar">
         
         <button menu
-          className="nav-bar-hamburger" 
+          className="nav-bar-button" 
           type="button" 
           onClick={() => setIsNavExpanded(!isNavExpanded)}
         >

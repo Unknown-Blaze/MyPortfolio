@@ -1,4 +1,4 @@
-.meal-card {
+.award-card {
   grid-column: auto;
   grid-row: 2;
   height: 41.25rem; 
@@ -12,58 +12,58 @@
   transition: all ease-in-out 0.3s;
 } 
 
-.meal-card:hover {
+.award-card:hover {
   transform: scale(1.1);
 }
 
-.meal-card-image img {
+.award-card-image img {
   width: 100%;
   height: 12.5rem;
   object-fit: cover;
   margin-bottom: 0.9375rem;
 }
 
-.meal-card-header, 
-.meal-card-body-footer {
+.award-card-header, 
+.award-card-body-footer {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 
-.meal-card-header {
+.award-card-header {
   display: flex;
   gap: 1.25rem;
   justify-content: space-between;
   margin-bottom: 1.875rem;
 }
 
-.meal-card-header h3 {
+.award-card-header h3 {
   font-size: 1.15rem;
 }
 
-.meal-card-header span {
+.award-card-header span {
   font-weight: bold;
   color: #ffa500;
 }
 
-.meal-card-body-footer {
+.award-card-body-footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
 
-.meal-card-body-footer a {
+.award-card-body-footer a {
   font-weight: bold;
 }
 
-.meal-card-body-footer svg {
+.award-card-body-footer svg {
   margin-left: 0.5rem;
 }
 
 /*-- Media queries ------------------------------------------------------*/
 
 @media (max-width: 960px) {
-.meal-card {
+.award-card {
   grid-row: auto;
 }
 }

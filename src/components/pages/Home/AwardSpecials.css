@@ -1,10 +1,10 @@
-.week-specials {
+.achievments {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto;
   gap: 1.25rem;
 }
 
-.week-specials-header {
+.achievments-header {
   grid-column: 1 / 4;
   grid-row: 1;
   display: flex;
@@ -13,7 +13,7 @@
   margin-bottom: 1.875rem;
 }
 
-.week-specials-header h2 {
+.achievments-header h2 {
   line-height: 1;
   font-family: "Markazi Text";
   font-weight: normal;
@@ -23,23 +23,23 @@
 /*-- Media queries ------------------------------------------------------*/
 
 @media (max-width: 960px) {
-.week-specials {
+.achievments {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto;
 }
 
-.week-specials-header {
+.achievments-header {
   grid-column: 1 / 3;
 }
 }
 
 @media (max-width: 692px) {
-.week-specials {
+.achievments {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, auto);
 }
 
-.week-specials-header {
+.achievments-header {
   grid-column: 1 / 2;
 }
 }
