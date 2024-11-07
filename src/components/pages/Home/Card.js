@@ -11,6 +11,7 @@ const Card = ({award}) => {
         <span>{award.time}</span>
       </div>
       <div className="award-card-body-footer">
+        hello
         <p>{award.description}</p>
       </div>
     </article>
